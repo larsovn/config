@@ -1,0 +1,22 @@
+{
+	"name": "larso/config",
+	"description": "Config class",
+	"autoload": {
+		"psr-4": {
+			"Larso\\Support\\": ""
+		},
+		"classmap": [
+			"src/"
+		]
+	},
+	"require": {
+		"php": "^8",
+		"irazasyed/telegram-bot-sdk": "*",
+		"symfony/error-handler": "*",
+		"symfony/http-kernel": "*",
+		"symfony/var-dumper": "*",
+		"illuminate/filesystem": "*"
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
